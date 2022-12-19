@@ -1,4 +1,5 @@
 .header {
     display: grid;
     grid-template-columns: auto max-content max-content;
+    padding-top: 28px;
 }

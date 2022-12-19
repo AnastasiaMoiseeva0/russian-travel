@@ -1,6 +1,5 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(5, max-content) auto;
-    grid-auto-flow: row;
     gap: 18px;
 }

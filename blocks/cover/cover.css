@@ -3,7 +3,4 @@
     width: 100%;
     min-height: 740px;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
