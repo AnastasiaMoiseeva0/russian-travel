@@ -1,7 +1,13 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 460px) minmax(0, 484px);
     gap: 48px 40px;
     margin-top: 80px;
-    margin-bottom: 80px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .place {
+        grid-template-columns: minmax(0, 440px) minmax(0, 456px);
+        gap: 48px 32px;
+    }
 }
