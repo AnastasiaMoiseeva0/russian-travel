@@ -7,6 +7,11 @@
     align-items: center;
     margin: 0;
     margin-bottom: 24px;
+    opacity: 1;
+}
+
+.footer__link:hover {
+    opacity: .5;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
