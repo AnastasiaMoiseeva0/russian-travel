@@ -1,7 +1,3 @@
 .header__lang-link_active {
-    color: #FFFFFF;
-    font-size: 24px;
-    line-height: 117%;
-    justify-content: end;
     text-decoration: underline;
 }
